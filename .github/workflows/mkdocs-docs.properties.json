@@ -1,0 +1,7 @@
+{
+    "name": "MkDocs Documentation Workflow",
+    "description": "Builds and deploys MkDocs documentation using Development Seed's standard template.",
+    "iconName": "book",
+    "categories": ["Documentation"],
+    "filePatterns": ["^mkdocs\\.yml$", "^pyproject\\.toml$"]
+  }
