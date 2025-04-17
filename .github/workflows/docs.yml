@@ -26,5 +26,4 @@ jobs:
         run: uv run mkdocs build --strict
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/$default-branch'
         run: uv run mkdocs gh-deploy --force
